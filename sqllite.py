@@ -44,6 +44,7 @@ async def get_data():
     f.write(data_db)
     f.close()
     print('Время получения бекапа :=' + str(time.time() - to))
+    time.sleep(5)
     timer_start()
     thread1 = threading.Thread(target=logic)
     thread1.start()

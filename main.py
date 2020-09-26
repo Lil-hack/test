@@ -30,7 +30,7 @@ def start_message(message):
 		if row is None:
 			q.execute(
 				"INSERT INTO user (id,balance,ref,ref_colvo,win,game,luls,status) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % (
-					userid, '0', '0', '0', '0', '0', '0', 'Активен'))
+					userid, '20', '0', '0', '0', '0', '0', 'Активен'))
 			connection.commit()
 			if message.text[7:] != '':
 				if message.text[7:] != userid:
@@ -44,6 +44,7 @@ def start_message(message):
 			msg = bot.send_message(message.chat.id,
 								   f'👑 Добро пожаловать, <a href="tg://user?id={message.chat.id}">{message.chat.first_name}</a>',
 								   parse_mode='HTML', reply_markup=keyboards.main)
+			bot.send_message(message.chat.id, '''Ваш стартовый баланс = 20 руб. 🥳 ''')
 		else:
 			if row[3] == '0':
 				connection = sqlite3.connect('database.sqlite')
@@ -62,6 +63,8 @@ def start_message(message):
 					bot.send_message(message.chat.id,
 									 f'👑 Добро пожаловать, <a href="tg://user?id={message.chat.id}">{message.chat.first_name}</a>',
 									 parse_mode='HTML', reply_markup=keyboards.main)
+
+					bot.send_message(message.chat.id, '''Ваш стартовый баланс = 20 руб. 🥳 ''')
 				else:
 					pass
 
@@ -83,6 +86,7 @@ def start_message(message):
 					bot.send_message(message.chat.id,
 									 f'👑 Добро пожаловать, <a href="tg://user?id={message.chat.id}">{message.chat.first_name}</a>',
 									 parse_mode='HTML', reply_markup=keyboards.main)
+					bot.send_message(message.chat.id,'''Ваш стартовый баланс = 20 руб. 🥳 ''')
 				else:
 					pass
 	except Exception as e:
