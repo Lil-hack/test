@@ -103,13 +103,14 @@ def timer_start():
     try:
         asyncio.run_coroutine_threadsafe(save_data(),bot.loop)
     except Exception as exc:
-        pass
+        print(exc)
 
 def main_start():
+    print('start lol')
     try:
         asyncio.run_coroutine_threadsafe(get_data(), bot.loop)
     except Exception as exc:
-        pass
+        print(exc)
     timer_start()
     executor.start_polling(dp, skip_updates=True)
 
