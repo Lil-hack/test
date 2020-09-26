@@ -4,4 +4,4 @@ gunicorn
 light-qiwi==1.1.1
 pyTelegramBotAPI
 transliterate
-aiogram==2.0
+aiogram==2.8
