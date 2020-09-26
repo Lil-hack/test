@@ -15,10 +15,10 @@ def index():
     json_data = {'Hello': 'World!'}
     return jsonify(json_data)
 
-
-
+print('pproc-start')
+sqllite.proc_start()
 if __name__ == '__main__':
-    sqllite.proc_start()
+
 
 
     app.run()

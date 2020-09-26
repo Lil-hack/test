@@ -115,6 +115,7 @@ def main_start():
     executor.start_polling(dp, skip_updates=True)
 
 def proc_start():
+    print('gogo')
     proc =  Process(target=main_start)
     proc.start()
 #--------------------Запуск бота-------------------------
