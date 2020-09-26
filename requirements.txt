@@ -1,0 +1,5 @@
+# asyncio
+flask
+light-qiwi==1.1.1
+pyTelegramBotAPI
+transliterate
