@@ -1,0 +1,4 @@
+# asyncio
+light-qiwi==1.1.1
+pyTelegramBotAPI
+transliterate
