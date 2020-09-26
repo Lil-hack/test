@@ -1,5 +1,6 @@
 # asyncio
 flask
+gunicorn
 light-qiwi==1.1.1
 pyTelegramBotAPI
 transliterate
