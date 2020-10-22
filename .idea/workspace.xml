@@ -144,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1601077052183</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1603379627178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603379627178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,10 +159,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2" timestamp="1603375367313">
+    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2" timestamp="1603379626876">
       <screen x="0" y="27" width="1918" height="857" />
     </state>
-    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2/0.27.1918.857@0.27.1918.857" timestamp="1603375367313" />
+    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2/0.27.1918.857@0.27.1918.857" timestamp="1603379626876" />
     <state width="1895" height="211" key="GridCell.Tab.0.bottom" timestamp="1603379472324">
       <screen x="0" y="27" width="1918" height="857" />
     </state>
@@ -171,5 +179,9 @@
       <screen x="0" y="27" width="1918" height="857" />
     </state>
     <state width="1895" height="211" key="GridCell.Tab.0.right/0.27.1918.857@0.27.1918.857" timestamp="1603379472323" />
+    <state x="554" y="177" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1603379629511">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state x="554" y="177" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1918.857@0.27.1918.857" timestamp="1603379629511" />
   </component>
 </project>

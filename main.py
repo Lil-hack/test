@@ -721,7 +721,7 @@ def summa_vilata_qiwi(message):
 				bot.send_message(message.chat.id, f'''Ваш баланс меньше суммы вывода''', reply_markup=keyboards.main, parse_mode='HTML')
 				return
 			if 100 > int(message.text) :
-				bot.send_message(message.chat.id, f'''Вы средств возможен от 100 рублей! Пополните счет или выиграйте еще.''', reply_markup=keyboards.main, parse_mode='HTML')
+				bot.send_message(message.chat.id, f'''Вывод средств возможен от 100 рублей! Пополните счет или выиграйте еще.''', reply_markup=keyboards.main, parse_mode='HTML')
 				return
 			if float(check_balans[0]) >= int(message.text):
 				ref_prozent = '5'
