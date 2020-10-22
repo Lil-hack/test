@@ -2,82 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dce2584-32a9-46fb-9bf8-2d77bcc78978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../besthackfinal-master/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-tomcat-maven-example-master/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="2321" lean-forward="true" selection-start-line="2321" selection-end-line="2321" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqllite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#25#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qiwi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,18 +22,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/qiwi.py" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/sqllite.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-      </list>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="475" />
@@ -111,42 +35,11 @@
     <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.qiwi">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qiwi" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.sqllite" />
-        <item itemvalue="Python.qiwi" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -253,76 +146,30 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="815" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21621622" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qiwi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="2321" lean-forward="true" selection-start-line="2321" selection-end-line="2321" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#25#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqllite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2" timestamp="1603375367313">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state x="498" y="27" width="912" height="857" key="CommitChangelistDialog2/0.27.1918.857@0.27.1918.857" timestamp="1603375367313" />
+    <state width="1895" height="211" key="GridCell.Tab.0.bottom" timestamp="1603379472324">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state width="1895" height="211" key="GridCell.Tab.0.bottom/0.27.1918.857@0.27.1918.857" timestamp="1603379472324" />
+    <state width="1895" height="211" key="GridCell.Tab.0.center" timestamp="1603379472322">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state width="1895" height="211" key="GridCell.Tab.0.center/0.27.1918.857@0.27.1918.857" timestamp="1603379472322" />
+    <state width="1895" height="211" key="GridCell.Tab.0.left" timestamp="1603379472322">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state width="1895" height="211" key="GridCell.Tab.0.left/0.27.1918.857@0.27.1918.857" timestamp="1603379472322" />
+    <state width="1895" height="211" key="GridCell.Tab.0.right" timestamp="1603379472323">
+      <screen x="0" y="27" width="1918" height="857" />
+    </state>
+    <state width="1895" height="211" key="GridCell.Tab.0.right/0.27.1918.857@0.27.1918.857" timestamp="1603379472323" />
   </component>
 </project>
