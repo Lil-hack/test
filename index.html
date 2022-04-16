@@ -7,6 +7,12 @@
   </head>
   <body style="text-align: center">
  <canvas id="unity-canvas" </canvas>
+  <script>
+  var myWidth=innerWidth;
+  var myHeight= innerHeight;
+  document.getElementById("unity-canvas").style.width=myWidth+"px";
+    document.getElementById("unity-canvas").style.height=myHeight+"px";
+  </script>
     <script src="Build/test.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
