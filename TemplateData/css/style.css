@@ -61,7 +61,7 @@ body{
 
 #loadingBlock,#errorBrowserBlock{
 	background-image:url("../img/background.png");
-	background-size:cover;
+background-size: 100% 100%; 
 }
 
 #emptyBar{
