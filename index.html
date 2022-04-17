@@ -75,7 +75,7 @@
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
 		function sayHi() {
-		  document.getElementById("loadingBlock").style.display = "none";
+		  document.getElementsByTagName('body').style.display = "none";
 		}
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/test.data",
@@ -85,7 +85,7 @@
         companyName: "DefaultCompany",
         productName: "Twitch Game",
         productVersion: "0.1",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then(sayHi());
 
