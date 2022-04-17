@@ -16,7 +16,7 @@
 			(document.msFullscreenElement && document.msFullscreenElement !== null);
 			
 			var element = document.body.getElementsByClassName("webgl-content")[0];
-			
+<!--			document.cookie = "name=0";-->
 			if (!isInFullScreen) {
 				document.getElementById("fullScreenButton").style.backgroundImage="url('TemplateData/img/fullScreen_off.png')";
 				return (element.requestFullscreen ||
@@ -51,11 +51,11 @@
 
 		}
 		
-<!--		function sayHi() {-->
-<!--		  document.getElementById("loadingBlock").style.display = "none";-->
-<!--		}-->
+		function sayHi() {
+		  document.getElementById("loadingBlock").style.display = "none";
+		}
 
-<!--		setTimeout(sayHi, 5000);-->
+		setTimeout(sayHi, 5000);
     </script>
   </head>
   <body>
@@ -74,9 +74,7 @@
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
-		function sayHi() {
-		  document.getElementsByTagName('body').style.display = "none";
-		}
+
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/test.data",
         frameworkUrl: "Build/test.framework.js",
@@ -87,7 +85,7 @@
         productVersion: "0.1",
         matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-      }).then(sayHi());
+      });
 
     </script>
 		</div>
