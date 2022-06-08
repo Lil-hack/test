@@ -19,9 +19,10 @@ body{
 }
 
 #gameContainer,canvas{
+	padding:0px;
 	position:absolute;
-	height:100%;
-	width:100%;
+	height:100vh;
+	width:100vw;
 	background-color:#f0f0f1;
 }
 
@@ -61,7 +62,7 @@ body{
 
 #loadingBlock,#errorBrowserBlock{
 	background-image:url("../img/background.png");
-	background-size:cover;
+background-size: 100% 100%; 
 }
 
 #emptyBar{
